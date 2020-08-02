@@ -3,9 +3,6 @@
  */
 package service.framework;
 
-/**
- * @author Wolfgang Weck
- */
 public interface Service {
 	public void serv(String s);
 }

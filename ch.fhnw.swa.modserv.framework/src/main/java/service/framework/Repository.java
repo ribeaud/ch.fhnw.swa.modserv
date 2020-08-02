@@ -7,9 +7,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.ServiceLoader;
 
-/**
- * @author Wolfgang Weck
- */
 public final class Repository {
 	final private ServiceLoader<Service> s = ServiceLoader.load(Service.class);
 

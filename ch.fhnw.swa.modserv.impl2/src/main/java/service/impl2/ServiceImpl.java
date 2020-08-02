@@ -5,9 +5,6 @@ package service.impl2;
 
 import service.framework.Service;
 
-/**
- * @author Wolfgang Weck
- */
 public final class ServiceImpl implements Service {
 	@Override
 	public void serv(String s) {
