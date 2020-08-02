@@ -3,5 +3,5 @@ plugins {
 }
 
 dependencies {
-	compile project(':ch.fhnw.swa.modserv.framework')
+	implementation project(':ch.fhnw.swa.modserv.framework')
 }

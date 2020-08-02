@@ -3,8 +3,10 @@ plugins {
 }
 
 dependencies {
-	compile project(':ch.fhnw.swa.modserv.impl1')
-	compile project(':ch.fhnw.swa.modserv.impl2')
+	implementation project(':ch.fhnw.swa.modserv.framework')
+
+	runtimeOnly project(':ch.fhnw.swa.modserv.impl1')
+	runtimeOnly project(':ch.fhnw.swa.modserv.impl2')
 }
 
 application {
