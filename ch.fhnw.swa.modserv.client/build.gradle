@@ -1,0 +1,13 @@
+plugins {
+	id 'application'
+}
+
+dependencies {
+	compile project(':ch.fhnw.swa.modserv.impl1')
+	compile project(':ch.fhnw.swa.modserv.impl2')
+}
+
+application {
+	mainModule = 'service.client'
+	mainClass = 'service.Demo'
+}

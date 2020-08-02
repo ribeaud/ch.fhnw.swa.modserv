@@ -1,0 +1,14 @@
+subprojects {
+    version = '1.0.2'
+    group = 'ch.fhnw.swa.modserv'
+
+    repositories {
+        jcenter()
+    }
+
+    plugins.withType(JavaPlugin).configureEach {
+        java {
+            modularity.inferModulePath = true
+        }
+    }
+}

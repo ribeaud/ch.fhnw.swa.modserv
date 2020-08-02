@@ -1,0 +1,5 @@
+rootProject.name = 'ch.fhnw.swa.modserv'
+include 'ch.fhnw.swa.modserv.client',
+        'ch.fhnw.swa.modserv.framework',
+        'ch.fhnw.swa.modserv.impl1',
+        'ch.fhnw.swa.modserv.impl2'
