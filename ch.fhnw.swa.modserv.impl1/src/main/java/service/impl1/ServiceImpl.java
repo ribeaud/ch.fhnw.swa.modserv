@@ -1,6 +1,3 @@
-/*
- * Created on 27.04.2018
- */
 package service.impl1;
 
 import service.framework.Service;
